@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+
+
+# urlpatterns = [
+    
+#     url(r'^$',views.Get_allMakes.as_view(), name='make_index'),
+#     # url(r'^(?P<car_makes>[A-Za-z0-9\w @%._-]+)/make_models/$', views.make_models, name='make_models'),
+    
+# ]
+
+
+
+>>>>>>> master-dev
 from django.conf.urls import patterns, include, url
 from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
@@ -8,5 +22,9 @@ urlpatterns = patterns('',
 )
 
 
+<<<<<<< HEAD
 urlpatterns = format_suffix_patterns(urlpatterns)
 
+=======
+urlpatterns = format_suffix_patterns(urlpatterns)
+>>>>>>> master-dev

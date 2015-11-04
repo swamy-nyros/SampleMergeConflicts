@@ -30,5 +30,9 @@ urlpatterns = patterns(
     url(r'^api/$', Get_allMakes.as_view(), name='api_list'),
     url(r'^api/(?P<pk>[0-9]+)/$', Get_allMakesDetails.as_view(), name='api_detail'),
     url(r'^admin/', include(admin.site.urls)),
+<<<<<<< HEAD
     url(r'^cars/', include('cars_scrapping.urls', namespace='cars')),
 )
+=======
+ )
+>>>>>>> master-dev

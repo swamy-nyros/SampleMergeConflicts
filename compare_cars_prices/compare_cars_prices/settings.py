@@ -69,7 +69,10 @@ INSTALLED_APPS = (
     'django.contrib.redirects',   
     'rest_framework',
     'compare_cars',
+<<<<<<< HEAD
     'cars_scrapping',
+=======
+>>>>>>> master-dev
     'djcelery',
 )
 
@@ -140,4 +143,8 @@ CELERYBEAT_SCHEDULE = {
 
 STATIC_URL = '/static/'
 
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> master-dev

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master-dev
 from .models import CarMakeDetails
 from rest_framework import generics
 from rest_framework.views import APIView
@@ -34,5 +38,9 @@ class Get_allMakesDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset_results = CarMakeDetails.objects.order_by().values('makes')
     queryset = CarMakeDetails.objects.filter(makes='Tata')
     serializer_class = CompareCarSerializer
+<<<<<<< HEAD
      
 
+=======
+     
+>>>>>>> master-dev
