@@ -1,5 +1,4 @@
 from django.shortcuts import render
-<<<<<<< HEAD
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -328,7 +327,3 @@ def cartrade_scrap(request):
                 )
 
     return HttpResponse("successfully scrapped cartrade")
-=======
-
-# Create your views here.
->>>>>>> master-dev

@@ -69,11 +69,9 @@ INSTALLED_APPS = (
     'django.contrib.redirects',   
     'rest_framework',
     'compare_cars',
-<<<<<<< HEAD
     'cars_scrapping',
-=======
->>>>>>> master-dev
     'djcelery',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -143,8 +141,4 @@ CELERYBEAT_SCHEDULE = {
 
 STATIC_URL = '/static/'
 
-<<<<<<< HEAD
  
-=======
- 
->>>>>>> master-dev

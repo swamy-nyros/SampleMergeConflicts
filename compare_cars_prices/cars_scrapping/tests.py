@@ -1,5 +1,7 @@
 from django.test import TestCase
-<<<<<<< HEAD
+
+# Create your tests here.
+from django.test import TestCase
 from compare_cars.models import *
 from selenium import webdriver
 import time
@@ -88,7 +90,3 @@ python manage.py test scrapcars.tests.CartradeTest.test_cartrade
 
 
 '''
-=======
-
-# Create your tests here.
->>>>>>> master-dev

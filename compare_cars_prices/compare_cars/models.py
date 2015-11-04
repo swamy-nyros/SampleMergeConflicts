@@ -9,12 +9,8 @@ class CarDetails(models.Model):
 	city = models.CharField(max_length=100,blank=True)
 	makes = models.CharField(max_length=100,blank=True)
 	car_model =models.CharField(max_length=100,blank=True)
-<<<<<<< HEAD
-	price = models.CharField(max_length=100,blank=True)
-=======
-	price = models.IntegerField(blank=True)
->>>>>>> master-dev
-	model_year = models.IntegerField(blank=True)
+	price = models.CharField(blank=True)
+	model_year = models.CharField(blank=True)
 	car_title = models.CharField(max_length=500,blank=True)
 	car_href = models.URLField(max_length=5000,blank=True)
 	car_image = models.ImageField(max_length=500,blank=True)
@@ -31,13 +27,8 @@ class CarMakeDetails(models.Model):
 	city = models.CharField(max_length=100,blank=True)
 	makes = models.CharField(max_length=100,blank=True)
 	car_model =models.CharField(max_length=100,blank=True)
-<<<<<<< HEAD
 	price = models.CharField(max_length=100,blank=True)
 	model_year = models.CharField(max_length=100,blank=True)
-=======
-	price = models.IntegerField(blank=True,null=True)
-	model_year = models.IntegerField(blank=True,null=True)
->>>>>>> master-dev
 	car_title = models.CharField(max_length=500,blank=True)
 	car_href = models.URLField(max_length=5000,blank=True)
 	car_image = models.ImageField(max_length=500,blank=True)
